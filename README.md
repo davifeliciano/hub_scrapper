@@ -3,19 +3,27 @@
 Um Web Scrapper para extrair as soluções dos exercícios do Driven HUB com seus
 respectivos enunciados, convertendo-os para Markdown.
 
+> **⚠️ ATENÇÃO:** O código fonte dos exercícios é extraído do editor usando a
+> área de transferência (clipboard) do  sistema operacional. Assim, durante a
+> execução do scrapper devem ser evitados recortes (<kbd>Ctrl</kbd> +
+> <kbd>X</kbd>) ou cópias (<kbd>Ctrl</kbd> + <kbd>C</kbd>) para evitar qualquer
+> interferência.
+
 https://github.com/davifeliciano/hub_scrapper/assets/26972046/62068090-359d-4b96-b393-ddf7269144f3
 
 ## Setup
 
 Para instalar o scrapper é necessário ter uma instalação do toolchain do Rust em
-sua maquina. Para instruções de instalação acesse
-[https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install).
+sua maquina. Caso ainda não possua acesse
+[https://www.rust-lang.org/tools/install](https://www.rust-lang.org/tools/install)
+e siga as recomendações para sua plataforma.
 É preciso também ter uma instalação do Chrome para que o scrapper funcione
-corretamente. Além disso, é necessário que o chrome driver esteja em execução.
-Para baixar o binário do chromedriver para a sua plataforma e versão do Chrome
+corretamente. Além disso, é necessário que o `chromedriver` esteja em execução
+para controlar uma instancia do browser de forma automatizada. Para baixar o
+binário do `chromedriver` para a sua plataforma e versão do Chrome
 correspondente, visite
 [https://chromedriver.chromium.org/downloads](https://chromedriver.chromium.org/downloads)
-e em seguida siga os passos abaixo.
+e então siga os passos abaixo.
 
 1. Execute o chromedriver
 
