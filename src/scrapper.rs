@@ -23,6 +23,8 @@ pub async fn setup_driver(headless: bool, port: u16, wait: u64) -> WebDriverResu
 }
 
 pub async fn login(driver: &WebDriver, email: String, password: String) -> WebDriverResult<()> {
+    println!("Attempting login");
+
     driver
         .goto("https://hub.driven.com.br/login?redirect=%2Fcomputacao")
         .await?;
@@ -38,6 +40,8 @@ pub async fn login(driver: &WebDriver, email: String, password: String) -> WebDr
         .find(By::Tag("h3"))
         .await
         .expect("Timeout waiting login redirection. Are your credentials right?");
+
+    println!("Logged in successfully");
 
     Ok(())
 }
