@@ -3,6 +3,8 @@
 Um Web Scrapper para extrair as soluções dos exercícios do Driven HUB com seus
 respectivos enunciados, convertendo-os para Markdown.
 
+https://github.com/davifeliciano/hub_scrapper/assets/26972046/62068090-359d-4b96-b393-ddf7269144f3
+
 ## Setup
 
 Para instalar o scrapper é necessário ter uma instalação do toolchain do Rust em
