@@ -2,6 +2,11 @@
 name = "hub_scrapper"
 version = "0.1.0"
 edition = "2021"
+authors = ["Davi Feliciano <dfeliciano37@gmail.com>"]
+description = "Web Crawler to export all the exercise's solutions from https://hub.driven.com.br"
+readme = "README.md"
+repository = "https://github.com/davifeliciano/hub_scrapper"
+license-file = "LICENSE"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
